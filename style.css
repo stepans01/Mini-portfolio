@@ -12,8 +12,8 @@ p {
 }
 
 li {
-color: rgb(0, 0, 0);
-background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+border:inset red;
+float: right;
 }
 
 * {
@@ -36,4 +36,7 @@ background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 main{
     width: 60%;
     margin: 0 auto 50px auto;
+}
+footer{
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
 }
